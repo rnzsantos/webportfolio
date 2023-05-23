@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts (Poppins)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts (Mulish) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Developer Portfolio</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top p-4">
+        <div class="container">
+          <a class="navbar-brand" href="#landing">&lt;renzo.dev&gt;</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link" href="#landing">About</a>
+              <a class="nav-link" href="#tools">Tools</a>
+              <a class="nav-link" href="#projects">Project</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Content Start -->
+    <main>
+      <!-- Landing Section Start -->
+      <section class="min-vh-100 py-5" id="landing">
+        <div class="container">
+          <div class="row align-items-center text-center">
+            <div class="col-lg-5 order-lg-2">
+              <img class="landing__image" src="./images/landing-image.png" />
+            </div>
+
+            <div class="col-md-10 offset-md-1 col-lg-6 order-lg-1 my-5 my-lg-0">
+              <h1 class="landing__title text-lg-left mb-4">
+                Full Stack Web Developer
+              </h1>
+              <p class="landing__text text-lg-left">
+                Hi, I'm
+                <span class="landing__name text-warning">Renzo Santos</span>. A
+                passionate and aspiring web developer who thrives on learning
+                new things.
+              </p>
+            </div>
+
+            <div class="col-10 offset-1 col-lg-8 offset-lg-2 order-lg-3">
+              <h3 class="landing__about-title mb-5">About Me</h3>
+              <p class="landing__about-text">
+                Graduate of Bachelor of Science in Information Systems.
+                Continuously learning fundamentals of web development, writing
+                clean and optimized code and utilizing cutting-edge development
+                tools and techniques.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Landing Section End -->
+
+      <!-- Tools Section Start -->
+      <section class="py-5" id="tools">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-10 offset-1">
+              <h3 class="mb-5">Tools</h3>
+              <div class="row">
+                <div class="col-12 col-lg-4">
+                  <h5 class="text-light">Front End</h5>
+                  <div class="d-flex flex-wrap justify-content-center">
+                    <img class="tools__item" src="./images/html-logo.svg" />
+                    <img class="tools__item" src="./images/css-logo.svg" />
+                    <img class="tools__item" src="./images/js-logo.svg" />
+                    <img class="tools__item" src="./images/bs-logo.svg" />
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 my-5 my-lg-0">
+                  <h5 class="text-light">MERN Stack</h5>
+                  <div class="d-flex flex-wrap justify-content-center">
+                    <img class="tools__item" src="./images/mongodb-logo.svg" />
+                    <img class="tools__item" src="./images/express-logo.png" />
+                    <img class="tools__item" src="./images/react-logo.svg" />
+                    <img class="tools__item" src="./images/nodejs-logo.svg" />
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <h5 class="text-light">Others</h5>
+                  <div class="d-flex flex-wrap justify-content-center">
+                    <img class="tools__item" src="./images/vscode-logo.png" />
+                    <img class="tools__item" src="./images/git-logo.png" />
+                    <img class="tools__item" src="./images/gitlab-logo.png" />
+                    <img class="tools__item" src="./images/github-logo.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Tools Section End -->
+
+      <!-- Projects Start -->
+      <section class="pt-5" id="projects">
+        <div class="container">
+          <h3 class="text-center mb-5">Projects</h3>
+          <div class="row">
+            <div class="col-10 offset-1">
+              <!-- Project 1 Start -->
+              <div
+                class="card mb-5 p-3"
+                data-aos="fade-out"
+                data-aos-duration="500"
+              >
+                <div class="row no-gutters text-center">
+                  <div class="col-lg-6">
+                    <img class="card-img" src="./images/project-1.png" />
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body">
+                      <h5 class="card-title">E-Commerce</h5>
+                      <p class="card-text">
+                        An ecommerce website is your digital storefront on the
+                        internet. It facilitates the transaction between a buyer
+                        and seller. It is the virtual space where you showcase
+                        products, and online customers make selections.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Project 1 End -->
+
+              <!-- Project 2 Start -->
+              <div
+                class="card mb-5 p-3"
+                data-aos="fade-out"
+                data-aos-duration="500"
+              >
+                <div class="row no-gutters text-center">
+                  <div class="col-lg-6 order-lg-2">
+                    <img class="card-img" src="./images/project-2.png" />
+                  </div>
+                  <div class="col-lg-6 order-lg-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Car Rental</h5>
+                      <p class="card-text">
+                        A car rental website is an online platform that allows
+                        users to rent cars for personal or business use. The
+                        website provides an interface for searching, comparing,
+                        and reserving cars.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Project 2 End -->
+
+              <!-- Project 3 Start -->
+              <div
+                class="card mb-5 p-3"
+                data-aos="fade-out"
+                data-aos-duration="500"
+              >
+                <div class="row no-gutters text-center">
+                  <div class="col-lg-6">
+                    <img class="card-img" src="./images/project-3.png" />
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Online Reservation</h5>
+                      <p class="card-text">
+                        A comprehensive resource for fitness information, class
+                        schedules, membership options, and tools to help users
+                        achieve their fitness goals.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Project 3 End -->
+
+              <!-- Project 4 Start -->
+              <div
+                class="card mb-5 p-3"
+                data-aos="fade-out"
+                data-aos-duration="500"
+              >
+                <div class="row no-gutters text-center">
+                  <div class="col-lg-6 order-lg-2">
+                    <img class="card-img" src="./images/project-4.png" />
+                  </div>
+                  <div class="col-lg-6 order-lg-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Crypto Tracker</h5>
+                      <p class="card-text">
+                        App that allows users to search for information about
+                        various cryptocurrencies in real-time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Project 4 End -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects End -->
+
+      <!-- Contact Start -->
+      <section class="py-5" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-10 offset-1">
+              <h3 class="mb-5 text-center">Contact</h3>
+              <form>
+                <div class="form-group mb-3">
+                  <label class="form-label" for="full-name"
+                    >Full Name <span class="text-danger">*</span></label
+                  >
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="full-name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group mb-3">
+                  <label class="form-label" for="email"
+                    >Email <span class="text-danger">*</span></label
+                  >
+                  <input
+                    class="form-control"
+                    type="email"
+                    id="email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group mb-3">
+                  <label class="form-label" for="message"
+                    >Message <span class="text-danger">*</span></label
+                  >
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    id="message"
+                    required
+                  ></textarea>
+                </div>
+                <button class="btn btn-primary d-block ml-sm-auto">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact End -->
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="container text-light text-center py-5">
+        <div class="mb-4">
+          <a href="https://github.com/rnzsantos" target="_blank"
+            ><i class="fa-brands fa-github fa-2xl m-2"></i
+          ></a>
+          <a href="https://gitlab.com/rnzsantos" target="_blank"
+            ><i class="fa-brands fa-gitlab fa-2xl m-2"></i
+          ></a>
+        </div>
+
+        <small class="d-block">Renzo Santos</small>
+        <small class="d-block">Full Stack Web Developer</small>
+        <small>Copyright © 2023. All rights reserved.</small>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+  </body>
+</html>

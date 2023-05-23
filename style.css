@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+/* General Styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #06091b;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 5.5em;
+}
+
+section {
+  scroll-margin-top: 5.5em;
+}
+
+h3 {
+  color: #147efb;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+h5 {
+  color: #f8f6f4;
+}
+
+textarea {
+  resize: none;
+}
+
+#tools,
+#contact {
+  background: #16182b;
+}
+
+/* Navbar */
+.bg-dark {
+  background: #06091b !important;
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Landing Section */
+.landing__title,
+.landing__name {
+  font-weight: 700;
+}
+
+.landing__title,
+.landing__about-text {
+  color: #f8f6f4;
+}
+
+.landing__text,
+.landing__about-text {
+  font-size: 1.25rem;
+}
+
+.landing__image {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  width: 250px;
+}
+
+.landing__title {
+  font-size: 2.5rem;
+}
+
+.landing__text {
+  color: #eeeeee;
+  font-family: 'Mulish', sans-serif;
+}
+
+.landing__about-text {
+  line-height: 2;
+}
+
+/* Tools Section */
+.tools__item {
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  margin: 1em;
+  padding: 1em;
+  width: 60px;
+}
+
+/* Projects Section */
+.card,
+.card-img {
+  border-radius: 25px;
+}
+
+.card {
+  background: #182336;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.card-img {
+  max-width: 500px;
+  max-height: 333.33px;
+  object-fit: cover;
+  background-position: top;
+}
+
+.card-body {
+  font-family: 'Mulish', sans-serif;
+  color: #ffffff;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-weight: 500;
+}
+
+/* Contact Section */
+#contact {
+  color: #eeeeee;
+}
+
+.btn {
+  width: 100%;
+}
+
+/* Media Queries */
+@media (min-width: 501px) {
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  .landing__title {
+    font-size: 3.438rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 768px) {
+  .tools__item {
+    width: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .landing__image {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+
+  .landing__about-title {
+    margin-top: 5rem;
+  }
+}
